@@ -65,6 +65,7 @@ int main() {
   list_foldl (add, (element_t*) &sp, l4);
   printf ("fold: %d\n", s);
 
+
   list_foreach (free, l3);  // free elements allocated by inc in map1
   list_foreach (free, l4);  // free elements allocated by add in map2
 
